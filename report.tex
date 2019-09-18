@@ -60,33 +60,48 @@ minimum height=1cm,text centered,draw=black,fill=green!30]
     
     \section{Problem Satement 1}
     \subsection{Problem Statement}
-    You have a file with the contents of players’ names and their scores. Create a programme using
-Lex(flex) to calculate total runs scored by the players. Also calculate their averages.
-Sample File Format is as below
-\\Input Format:
-$$./ps1 <input_file>$$
-Output Format:
-$$<player_name> <Total_run> <average>$$
-% \end{itemize}
+    \textbf{Parity Check}
+    \\ \\The simplest way of error detection is to append a single bit, called a parity check, to a string of data bits. This parity check bit has the value 1 if the number of 1’s in the bit string is even and has the value 0 otherwise, i.e., Odd Parity Check.\\ \\
+    \textbf{Bit-Oriented Framing}
+    \\ \\Data Link Layer needs to pack bits into frames so that each frame is distinguishable from another. Frames can be fixed or variable size. In variable size framing, we define the end of the frame using a bit-oriented approach. It uses a special string of bits, called a flag for both idle fills and to indicate the beginning and the ending of frames.\\ 
+    The bit stuffing rule is to insert a 0 after each appearance of 010 in the original data. \\
+    The string 0101 is used as the bit string or flag to indicate the end of the frame.\\ \\
+
+    \subsection{Input Format}
+    Enter binary bit data that has to be transmitted.\\
+
+    \subsection{Output Format}
+    Print binary bit data with parity bit.\\
+    Print the modified string that is to be transmitted\\   \\
+
+    \subsection{Sample Input}
+    010101110100101
+
+    \subsection{Sample Output}
+    Parity bit data : 0101011101001011\\
+    Transmitting data: 01001011101000100110101
+
     \subsection{PS1 algorithm}
     \begin{itemize}
-        \item Read filename from user
-        \item read words and numbers separately
-        \item for each ney name if name does't already exist, add name
-        \item add score for respective name
-        \item calculate sum and average
+        \item Read bit data from user
+        \item Initialize parity as 1
+        \item XOR parity with all bits to get parity value
+        \item append parity bit
+        \item replace pattern 010 with 0100
+        \item append 0101 at the end
         \item display rsults in the required format
     \end{itemize}
     \subsection{PS1 Flow Chart}
     \begin{tikzpicture}[node distance=2cm]
         \node (start) [startstop] {Start};
-        \node (p1) [io,below of=start] {get filename};
-        \node (p2) [process,below of=p1] {read each name and score};
-        \node (p3) [process,below of=p2] {if name does't exist, create name};
-        \node (p4) [process,below of=p3] {add score to respective index};
-        \node (p5) [process,below of=p4] {find average and total runs};
-        \node (p6) [io,below of=p5] {display rsults};
-        \node (stop) [startstop,below of=p6] {Stop};
+        \node (p1) [io,below of=start] {get bit data};
+        \node (p2) [process,below of=p1] {initialize parity as 1};
+        \node (p3) [process,below of=p2] {XOR parity with all bits};
+        \node (p4) [process,below of=p3] {append parity bit};
+        \node (p5) [process,below of=p4] {replace 010 with 0100};
+        \node (p6) [process,below of=p5] {append 0101};
+        \node (p7) [io,below of=p6] {display rsults};
+        \node (stop) [startstop,below of=p7] {Stop};
 
     
         \draw [arrow] (start) -- (p1);
@@ -95,14 +110,15 @@ $$<player_name> <Total_run> <average>$$
         \draw [arrow] (p3) -- (p4);
         \draw [arrow] (p4) -- (p5);
         \draw [arrow] (p5) -- (p6);
-        \draw [arrow] (p6) -- (stop);
+        \draw [arrow] (p6) -- (p7);
+        \draw [arrow] (p7) -- (stop);
     
     
     
     \end{tikzpicture}
     \pagebreak
     \subsection{PS1 Solution-Code}
-    \verbatiminput{ps1.l}
+    \verbatiminput{ps1.py}
     
     \pagebreak
     \subsection{PS1 Output Screenshots}
