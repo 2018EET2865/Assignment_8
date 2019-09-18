@@ -251,8 +251,12 @@ INPUT ./images/mk_002.png
 INPUT /home/aghil/My Files/IITD/CTECH/S3/ELP780 Software lab/A8/Assignment_8/./images/gt_001.png
 INPUT ./images/gt_001.png
 INPUT ./images/gt_001.png
-INPUT /home/aghil/My Files/IITD/CTECH/S3/ELP780 Software lab/A8/Assignment_8/./images/gt_001.png
-INPUT ./images/gt_001.png
+INPUT /home/aghil/My Files/IITD/CTECH/S3/ELP780 Software lab/A8/Assignment_8/./images/gt_002.png
+INPUT ./images/gt_002.png
+INPUT ./images/gt_002.png
+INPUT /home/aghil/My Files/IITD/CTECH/S3/ELP780 Software lab/A8/Assignment_8/./images/gt_003.png
+INPUT ./images/gt_003.png
+INPUT ./images/gt_003.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT /home/aghil/My Files/IITD/CTECH/S3/ELP780 Software lab/A8/Assignment_8/report.aux
 INPUT /home/aghil/My Files/IITD/CTECH/S3/ELP780 Software lab/A8/Assignment_8/report.out
