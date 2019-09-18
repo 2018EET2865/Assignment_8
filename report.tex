@@ -131,11 +131,11 @@ minimum height=1cm,text centered,draw=black,fill=green!30]
     \\One player plays with the odd numbers (1, 3, 5, 7, 9) and the other player plays with the even numbers (2,4,6,8). All numbers can be used only once. The player who puts down 15 points in a line wins (sum of 3 numbers). Always Player with odd numbers starts the game. Once a line contains two numbers whose sum is 15 or greater, there is no way to complete that line, although filling in the remaining cells might be necessary to complete a different line.
     \\Note – Line can be horizontal, vertical or diagonal\\
 
-    \textbf{Constraints:\\}
-    \\$1<=Position<=9$
+    \subsection{Constraints}
+    $1<=Position<=9$
     \\$1<=Number<=9$
-
-    \textbf{\\Terminal:}
+ 
+    \subsection{Terminal}
     \begin{itemize}
         \item Print ‘Welcome to the Game!’.	
         \item Print whether it is Player 1’s or Player 2’s chance.
@@ -184,38 +184,50 @@ minimum height=1cm,text centered,draw=black,fill=green!30]
         \draw [arrow] (p2) -- (p3);
         \draw [arrow] (p3) -- (p4);
         \draw [arrow] (p4) |- (p5);
-        \draw [arrow] (p5) |- (p6);
-        \draw [arrow] (p6) |- (p3);
-        \draw [arrow] (p5) |- (p3);
-        \draw [arrow] (p6) -- (stop);
+        \draw [arrow] (p5) |- node[anchor=east]{no} (p6);
+        \draw [arrow] (p6) |- node[anchor=south]{yes} (p3);
+        \draw [arrow] (p5) |- node[anchor=south]{yes} (p3);
+        \draw [arrow] (p6) -- node[anchor=west]{no} (stop);
     
     
     
     \end{tikzpicture}
     \pagebreak
     \subsection{PS2 Solution-Code}
-    \verbatiminput{ps2.l}
-
-    \pagebreak
-    \subsection{PS2 Output }
-    \subsubsection{input file}
-    \verbatiminput{ps2.txt}
-    \subsubsection{output file}
-    \verbatiminput{output.txt}
-    % \includegraphics[width=1.2\textwidth]{./images/ps2_001.png}
-    \pagebreak
+    \verbatiminput{ps2.py}
+    \subsection{PS2 Output Screenshots}
+    \includegraphics[width=1.2\textwidth]{./images/ps2_001.png}
+    \includegraphics[width=1.2\textwidth]{./images/ps2_002.png}
+    \includegraphics[width=1.2\textwidth]{./images/ps2_003.png}
+    % \pagebreak
     \section{makefile}
     \subsection{makefile code}
     \verbatiminput{makefile}
     % \subsection{makefile Screenshots}
     % \includegraphics[width=1.2\textwidth]{./images/mk_001.png}
     \subsection{makefile output}
+    input : make ps1\\
     \includegraphics[width=1.2\textwidth]{./images/mk_001.png}
+    input : make ps2\\
+    \includegraphics[width=1.2\textwidth]{./images/mk_002.png}
 
+    \newpage
 
-    \section{GIT}
+    \section{Git and Github}
+    \subsection{Github Account}
+    Github Account Link : $https://github.com/2018EET2865/Assignment_8.git$
     \subsection{GIT Commit Screenshots}
     \includegraphics[width=1.2\textwidth]{./images/gt_001.png}
     \includegraphics[width=1.2\textwidth]{./images/gt_001.png}
 
-\end{document}
+    \newpage
+	\begin{thebibliography}{9}
+        \bibitem{tutor} 
+        Tutorialspoint python\\
+        \textit{https://tutorialspoint.com/python/index.html}
+         
+        \bibitem{atlassian} 
+        Atlassian Git tutorial 
+        \textit{https://www.atlassian.com/git/tutorials/} 
+    \end{thebibliography}
+    \end{document}
