@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2019.8.17)  18 SEP 2019 12:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2019.8.17)  18 SEP 2019 12:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -784,7 +784,7 @@ LaTeX Info: Redefining \nameref on input line 26.
 \@outlinefile=\write4
 \openout4 = `report.out'.
 
- ABD: EveryShipout initializing macros <./images/logo.jpg, id=95, 225.84375pt x 224.84pt>
+ ABD: EveryShipout initializing macros <./images/logo.jpg, id=99, 225.84375pt x 224.84pt>
 File: ./images/logo.jpg Graphic file (type jpg)
  <use ./images/logo.jpg>
 Package pdftex.def Info: ./images/logo.jpg used on input line 48.
@@ -847,7 +847,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 86.
  [2] [3] [4]
 File: ps1.py  (verbatim)
- [5] <./images/ps1_001.png, id=173, 807.015pt x 98.3675pt>
+ [5] <./images/ps1_001.png, id=179, 807.015pt x 98.3675pt>
 File: ./images/ps1_001.png Graphic file (type png)
  <use ./images/ps1_001.png>
 Package pdftex.def Info: ./images/ps1_001.png used on input line 126.
@@ -857,65 +857,95 @@ Overfull \hbox (34.5021pt too wide) in paragraph at lines 126--127
  [] 
  []
 
-[6 <./images/ps1_001.png>] [7] [8]
+[6 <./images/ps1_001.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 130--133
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--137
+
+ []
+
+<./images/ps1_ps_001.png, id=185, 163.61125pt x 166.6225pt>
+File: ./images/ps1_ps_001.png Graphic file (type png)
+ <use ./images/ps1_ps_001.png>
+Package pdftex.def Info: ./images/ps1_ps_001.png used on input line 151.
+(pdftex.def)             Requested size: 68.99895pt x 70.26826pt.
+ <./images/ps1_ps_002.png, id=186, 151.56625pt x 156.585pt>
+File: ./images/ps1_ps_002.png Graphic file (type png)
+ <use ./images/ps1_ps_002.png>
+Package pdftex.def Info: ./images/ps1_ps_002.png used on input line 154.
+(pdftex.def)             Requested size: 68.99895pt x 71.2845pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--155
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--155
+
+ []
+
+[7 <./images/ps1_ps_001.png>] [8 <./images/ps1_ps_002.png>] [9]
 No file ps2.l.
-[9]
+[10]
 No file ps2.txt.
 No file output.txt.
-[10]
+[11]
 File: makefile  (verbatim)
- <./images/mk_001.png, id=195, 1042.89626pt x 308.15125pt>
+ <./images/mk_001.png, id=208, 1042.89626pt x 308.15125pt>
 File: ./images/mk_001.png Graphic file (type png)
  <use ./images/mk_001.png>
-Package pdftex.def Info: ./images/mk_001.png used on input line 183.
+Package pdftex.def Info: ./images/mk_001.png used on input line 213.
 (pdftex.def)             Requested size: 413.99895pt x 122.3273pt.
 
-Overfull \hbox (68.99895pt too wide) in paragraph at lines 183--184
+Overfull \hbox (68.99895pt too wide) in paragraph at lines 213--214
 [] 
  []
 
-<./images/gt_001.png, id=196, 1175.39125pt x 564.1075pt>
+<./images/gt_001.png, id=209, 1175.39125pt x 564.1075pt>
 File: ./images/gt_001.png Graphic file (type png)
  <use ./images/gt_001.png>
-Package pdftex.def Info: ./images/gt_001.png used on input line 188.
+Package pdftex.def Info: ./images/gt_001.png used on input line 218.
 (pdftex.def)             Requested size: 413.99895pt x 198.68867pt.
 File: ./images/gt_001.png Graphic file (type png)
  <use ./images/gt_001.png>
-Package pdftex.def Info: ./images/gt_001.png used on input line 189.
+Package pdftex.def Info: ./images/gt_001.png used on input line 219.
 (pdftex.def)             Requested size: 413.99895pt x 198.68867pt.
 
-Overfull \hbox (68.99895pt too wide) in paragraph at lines 188--190
+Overfull \hbox (68.99895pt too wide) in paragraph at lines 218--220
 []
  []
 
 
-Overfull \hbox (68.99895pt too wide) in paragraph at lines 188--190
+Overfull \hbox (68.99895pt too wide) in paragraph at lines 218--220
 [] 
  []
 
-[11 <./images/mk_001.png>] [12 <./images/gt_001.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 191.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 191.
+[12 <./images/mk_001.png>] [13 <./images/gt_001.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 221.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 221.
  (/home/aghil/My Files/IITD/CTECH/S3/ELP780 Software lab/A8/Assignment_8/report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 191.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 191.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 221.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 221.
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: EB0E195403E6E893D76EED9BA5B8812A;1361.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 191.
+(rerunfilecheck)             Checksum: 2D3BB8DFEFDC5A559D91EDED9DD7FBDC;1425.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 221.
  ) 
 Here is how much of TeX's memory you used:
- 17096 strings out of 493013
- 328048 string characters out of 6135682
+ 17122 strings out of 493013
+ 328616 string characters out of 6135682
  391636 words of memory out of 5000000
- 20315 multiletter control sequences out of 15000+600000
+ 20337 multiletter control sequences out of 15000+600000
  6992 words of font info for 26 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,6n,56p,500b,603s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on "/home/aghil/My Files/IITD/CTECH/S3/ELP780 Software lab/A8/Assignment_8/report.pdf" (13 pages, 221274 bytes).
+ 55i,6n,56p,547b,603s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on "/home/aghil/My Files/IITD/CTECH/S3/ELP780 Software lab/A8/Assignment_8/report.pdf" (14 pages, 236741 bytes).
 PDF statistics:
- 240 PDF objects out of 1000 (max. 8388607)
- 211 compressed objects within 3 object streams
- 36 named destinations out of 1000 (max. 500000)
- 209 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 259 PDF objects out of 1000 (max. 8388607)
+ 226 compressed objects within 3 object streams
+ 38 named destinations out of 1000 (max. 500000)
+ 227 words of extra memory for PDF output out of 10000 (max. 10000000)
 

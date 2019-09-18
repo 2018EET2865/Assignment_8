@@ -223,6 +223,12 @@ INPUT /home/aghil/My Files/IITD/CTECH/S3/ELP780 Software lab/A8/Assignment_8/ps1
 INPUT /home/aghil/My Files/IITD/CTECH/S3/ELP780 Software lab/A8/Assignment_8/./images/ps1_001.png
 INPUT ./images/ps1_001.png
 INPUT ./images/ps1_001.png
+INPUT /home/aghil/My Files/IITD/CTECH/S3/ELP780 Software lab/A8/Assignment_8/./images/ps1_ps_001.png
+INPUT ./images/ps1_ps_001.png
+INPUT ./images/ps1_ps_001.png
+INPUT /home/aghil/My Files/IITD/CTECH/S3/ELP780 Software lab/A8/Assignment_8/./images/ps1_ps_002.png
+INPUT ./images/ps1_ps_002.png
+INPUT ./images/ps1_ps_002.png
 INPUT /home/aghil/My Files/IITD/CTECH/S3/ELP780 Software lab/A8/Assignment_8/makefile
 INPUT /home/aghil/My Files/IITD/CTECH/S3/ELP780 Software lab/A8/Assignment_8/makefile
 INPUT /home/aghil/My Files/IITD/CTECH/S3/ELP780 Software lab/A8/Assignment_8/./images/mk_001.png
@@ -238,6 +244,7 @@ INPUT /home/aghil/My Files/IITD/CTECH/S3/ELP780 Software lab/A8/Assignment_8/rep
 INPUT /home/aghil/My Files/IITD/CTECH/S3/ELP780 Software lab/A8/Assignment_8/report.out
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
